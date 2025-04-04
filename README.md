@@ -1,1 +1,67 @@
 # About.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .testimonial {
+            background: #f4f4f4;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Your Profession or Tagline</p>
+    </header>
+
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Write a short introduction about yourself here.</p>
+        </section>
+
+        <section class="section" id="portfolio">
+            <h2>My Work</h2>
+            <p>Showcase your best projects or work samples.</p>
+        </section>
+
+        <section class="section" id="vouches">
+            <h2>Vouches & Testimonials</h2>
+            <div class="testimonial">"Amazing work! Highly recommended." - Person A</div>
+            <div class="testimonial">"Very professional and delivered on time." - Person B</div>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: your.email@example.com</p>
+            <p>Social Links: Add links here</p>
+        </section>
+    </div>
+</body>
+</html>
